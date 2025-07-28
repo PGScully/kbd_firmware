@@ -3,3 +3,10 @@
 
 # idea
 .idea/*
+
+keyboards/cornelius/qmk/qmk_firmware/.build
+keyboards/cornelius/vial-kb/vial-qmk/.build
+keyboards/crkbd/qmk/qmk_firmware/.build
+keyboards/crkbd/vial-kb/vial-qmk/.build
+keyboards/lskbd/qmk/qmk_firmware/.build
+keyboards/lskbd/vial-kb/vial-qmk/.build
