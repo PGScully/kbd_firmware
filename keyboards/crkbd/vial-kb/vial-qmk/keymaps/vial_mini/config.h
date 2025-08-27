@@ -27,9 +27,9 @@
 // keyboard responsiveness) #   define RGB_MATRIX_LED_FLUSH_LIMIT 16 // limits
 // in milliseconds how frequently an animation will update the LEDs. 16 (16ms)
 // is equivalent to limiting to 60fps (increases keyboard responsiveness)
-// #define RGB_MATRIX_MAXIMUM_BRIGHTNESS
-//   150 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause
-//       // the controller to crash.
+#undef RGB_MATRIX_MAXIMUM_BRIGHTNESS
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 150 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause
+// the controller to crash.
 #define RGB_MATRIX_HUE_STEP 8
 #define RGB_MATRIX_SAT_STEP 8
 #define RGB_MATRIX_VAL_STEP 8
